@@ -4,7 +4,7 @@
             type: 'pie',
             options3d: {
                 enabled: true,
-                alpha: 35,
+                alpha: 40,
                 beta: 0
             }
         },
@@ -18,7 +18,7 @@
             pie: {
                 allowPointSelect: true,
                 cursor: 'pointer',
-                depth: 35,
+                depth: 45,
                 dataLabels: {
                     enabled: false,
                     format: '{point.name}'
