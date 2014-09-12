@@ -30,8 +30,12 @@ namespace Ero57_Project
 
             bundles.Add(new StyleBundle("~/Content/Kendo/css").Include(
           "~/Content/Kendo/kendo.common-bootstrap.min.css",
-          "~/Content/Kendo/kendo.bootstrap.min.css"));
-
+          "~/Content/Kendo/kendo.common.min.css",
+          "~/Content/Kendo/kendo.bootstrap.min.css",          
+          "~/Content/Kendo/kendo.default.min.css" ,
+          "~/Content/Kendo/kendo.dataviz.min.css",
+          "~/Content/Kendo/kendo.dataviz.default.min.css")); 
+            
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
