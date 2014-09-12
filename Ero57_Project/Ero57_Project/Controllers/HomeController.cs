@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,11 @@ namespace Ero57_Project.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IPersistenceService _service;
+        public HomeController(IPersistenceService service)
+        {
+            _service = service;
+        }
         public ActionResult Index()
         {
             return View();
